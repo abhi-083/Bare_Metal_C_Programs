@@ -1,0 +1,68 @@
+########################################
+# STM32CubeIDE / Eclipse
+########################################
+
+# Eclipse / CubeIDE metadata
+.settings/
+.project
+.cproject
+.loadpath
+
+# Build directories
+Debug/
+Release/
+build/
+out/
+
+# Derived / temporary files
+*.d
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.log
+
+# Object files & intermediate files
+*.su
+*.gcno
+*.gcda
+*.gch
+
+# Backup / temp files
+*~
+*.swp
+*.tmp
+
+########################################
+# STM32CubeMX generated backup files
+########################################
+*.launch
+*.mxproject
+*.ioc.bak
+
+########################################
+# OS-specific files
+########################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+########################################
+# CMake (if you ever use it)
+########################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+FirstProject/
